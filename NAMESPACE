@@ -1,0 +1,3 @@
+export(call_R_function_with_unwind_protect)
+export(call_R_function_without_unwind_protect)
+useDynLib(unwindprotect, .registration=TRUE)
